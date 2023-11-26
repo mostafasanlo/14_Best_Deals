@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #FFF;
+    padding-top: 72px;
+}
+
+.main-container {
+    height: 649px;
+    display: inline-flex;
+    padding: 72px 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.header-container {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background: #FFF;
+
+}
+
+
+.header {
+    color: var(--gray-900, #191C1F);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.button-header {
+    display: flex;
+    padding: 6px 0px;
+    align-items: center;
+    gap: 8px;
+    background: var(--gray-00, #FFF);
+    cursor: pointer;
+}
+.button-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--secondary-500, #2DA5F3);
+}
+
+
+.product-container-big{
+    width: 1320px;
+    /* padding: 0.5px; */
+    background-color: #E4E7E9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.5px;
+}
+
+.big-field {
+    min-width: 328px;
+    max-width: 328px;
+    min-height: 592px;
+    position: relative;
+    margin: 1px;
+    background: var(--gray-00, #FFF);
+}
+.label {
+    position: absolute;
+    left:10px;
+    top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: var(--gray-900, #191C1F);
+}
+.Hot {
+    display: flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--danger-500, #EE5858);
+    color: var(--gray-00, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px
+    }
+.OFF {
+    display: flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--warning-400, #EFD33D);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+.information{
+    width: 90%;
+    padding: 20px 24px 24px 24px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+}
+.detail-content {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+.rate-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+.gray-text {
+    color: var(--gray-500, #77878F);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.product-information {
+    color: var(--gray-900, #191C1F);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.price-content {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.last-price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;    
+    color: var(--gray-300, #ADB7BC);
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.price-new {
+    color: var(--gray-400, #929FA5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.blu {
+    color: var(--secondary-500, #2DA5F3);
+}
+.short-detail {
+    color: var(--gray-600, #5F6C72);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction:row;
+    gap: 8px;
+}
+.Heart {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--primary-100, #FFE7D6);
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    background: var(--primary-500, #FA8232);
+    color: #FFF;
+    line-height: 48px; 
+    max-height: 48px;;
+    cursor: pointer;
+}
+.eye {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--primary-100, #FFE7D6);
+    cursor: pointer;
+}
+.txt-btn{
+    color: var(--gray-00, #FFF);
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+max-height: 48px;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 592px;
+    width: auto;
+}
+.products-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 245px;
+    height: 295px;
+    flex-shrink: 0;
+    background: var(--gray-00, #FFF); 
+    padding: 16px ;
+    margin: 1px;
+    position: relative;
+}
+
+.content-detail {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+.information_text {
+    color: var(--gray-900, #191C1F);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.price{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.price-box {
+    display: flex;
+}
+.price-last {
+    color: var(--gray-400, #929FA5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    text-decoration: line-through;
+}
+
+.price-new {
+    color: var(--secondary-500, #2DA5F3);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.hover-content {
+    width:160px;
+    height:48px;
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    background-color: #adb7bc17;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.favorite {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--primary-500, #FA8232);
+    cursor: pointer;
+}
+.shopping {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--gray-00, #5F6C72);
+    cursor: pointer;
+}
+.show {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--gray-00, #FFF);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
